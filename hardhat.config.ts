@@ -8,7 +8,6 @@ import "@nomicfoundation/hardhat-toolbox";
 import "@nomicfoundation/hardhat-verify";
 import "hardhat-gas-reporter";
 
-
 const config: HardhatUserConfig = {
   mocha: {
     timeout: 0
@@ -26,18 +25,13 @@ const config: HardhatUserConfig = {
       }
     ],
   },
-  
   networks: {
     hardhat: {
       chainId: 31337,
       allowUnlimitedContractSize: true
     },
-    // bsc_test: {
-    //   url: "https://97.rpc.thirdweb.com/4e46bafcc518ec67837981c05d911a49",
-    //   accounts: process.env.PRIVATE_KEY !== undefined ? [process.env.PRIVATE_KEY] : [],
-    // },
     polygon_amoy: {
-      url: "https://80002.rpc.thirdweb.com/4e46bafcc518ec67837981c05d911a49",
+      url: `https://80002.rpc.thirdweb.com/${process.env.THIRDWEB_API_KEY}`,
       accounts: process.env.PRIVATE_KEY !== undefined ? [process.env.PRIVATE_KEY] : [],
     }
   },
