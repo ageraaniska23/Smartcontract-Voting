@@ -64,7 +64,7 @@ install Package :
 Compile Smartcontract :
 
 ```bash
-  npm install
+  npx hardhat compile
 ```
 
 
