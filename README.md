@@ -1,7 +1,7 @@
 
 # Voting Smartcontract
 
-Sebuah Smartcontract yang menyediakan fitur voting berdasarkan wallet dan data yang terdaftar.
+A Smartcontract that enables voting based on wallet addresses and associated registered data.
 
 
 ## PolygonScan
@@ -11,13 +11,14 @@ https://amoy.polygonscan.com/address/0x791B8052dB2fA260E0dBf92Ec6112D414e40bF9d#
 
 ## Fitur
 
-- add partisipan
-- add dan pendaftaran pemilih voting atas verifikasi admin
-- melihat semua partisipan
-- melihat jumlah pemilih
+- add partisipa
+- add and register voters upon admin verification
+- view all participants
+- view total number of voters
 - Voting
-- melihat seluruh data partisipan
-- melihat hasil pemenang
+- view all participant data
+- view winning results
+
 ## Setup
 
 ## Environment Variables
