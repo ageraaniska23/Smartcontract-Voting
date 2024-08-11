@@ -21,7 +21,7 @@ https://amoy.polygonscan.com/address/0x791B8052dB2fA260E0dBf92Ec6112D414e40bF9d#
 
 ## Setup
 
-## Environment Variables
+### Environment Variables
 
 To run this project, you will need to add the following environment variables to your .env file
 
@@ -37,7 +37,7 @@ PRIVATE_KEY : your private key wallet
 
 THIRDWEB_API_KEY : https://thirdweb.com/dashboard/settings/api-keys
 
-## RPC
+### RPC
 
 hardhat.config.ts
 ```typescript
